@@ -42,8 +42,8 @@ This repository contains laboratory assignments for the course **Information Tec
    
 4. Run with Docker:
    ```sh
-   docker build -t java-lab-app .
-   docker run -p 8080:8080 java-lab-app
+   docker build -t itip .
+   docker run -p 8080:8080 itip
    ```
 
 ## Contribution
