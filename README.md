@@ -35,7 +35,12 @@ This repository contains laboratory assignments for the course **Information Tec
    mvn clean install exec:java
    mvn spring-boot:run
    ```
-3. Run with Docker:
+3. Build and run a Gradle project:
+   ```sh
+   gradle build
+   gradle clean build run
+   
+4. Run with Docker:
    ```sh
    docker build -t java-lab-app .
    docker run -p 8080:8080 java-lab-app
