@@ -27,8 +27,8 @@ This repository contains laboratory assignments for the course **Information Tec
 ## How to Run the Labs
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-repo/java-labs.git
-   cd java-labs
+   git clone https://github.com/ZentoFXNX/itip.git
+   cd .../itip
    ```
 2. Build and run a Maven project:
    ```sh
