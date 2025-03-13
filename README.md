@@ -32,7 +32,6 @@ This repository contains laboratory assignments for the course **Information Tec
    ```
 2. Build and run a Maven project:
    ```sh
-   mvn clean install
    mvn clean install exec:java
    mvn spring-boot:run
    ```
