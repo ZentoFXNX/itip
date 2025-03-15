@@ -39,6 +39,7 @@ This repository contains laboratory assignments for the course **Information Tec
    ```sh
    gradle build
    gradle clean build run
+   gradle bootrun
    
 4. Run with Docker:
    ```sh
