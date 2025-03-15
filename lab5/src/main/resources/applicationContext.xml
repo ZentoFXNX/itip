@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="catBean" class="org.example.lab5.Cat"/>
+    <bean id="parrotBean" class="org.example.lab5.Parrot"/>
+    <bean id="fishBean" class="org.example.lab5.Fish"/>
+
+    <bean id="animalKeeperBean" class="org.example.lab5.AnimalKeeper">
+        <constructor-arg ref="catBean"/>
+        <!-- <constructor-arg ref="parrotBean"/> -->
+        <!-- <constructor-arg ref="fishBean"/> -->
+    </bean>
+
+</beans>
