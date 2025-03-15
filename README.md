@@ -37,7 +37,6 @@ This repository contains laboratory assignments for the course **Information Tec
    ```
 3. Build and run a Gradle project:
    ```sh
-   gradle build
    gradle clean build run
    gradle bootrun
    
